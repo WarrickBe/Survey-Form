@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: 0;
+
+
+}
+body {
+  font-family: Tahoma;
+  font-size: 15px;
+  margin: 100px;
+  padding: 200px; 
+}
+
+img {
+  display: block;
+  align-items: center;
+}
+
+#image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  padding-top: 100px;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+#title {
+  text-align: center;
+}
+
+#bio-yasuke {
+  background-color: #d6d4d4;
+  color: #2B2D42;
+  font-family: Tahoma, sans serif;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1px;
+}
+
+#bio-title {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 75px; 
+  text-align: center; 
+}
+
+span {
+  font-weight: bold;
+  color: #a72608;
+}
+
+.divider {
+    border-bottom: 2px solid #2B2D42;
+    margin: 2px 0;
+
+  }
+
+#img-caption, #tribute-info{
+    text-align: center;
+}
+
+span:hover{
+  color: blue;
+  font-weight: bold;
+}
+
+
+main{
+  background-color: rgb(222, 221, 221);
+  padding: 100px;
+  border-radius: 25px;
+}
+
+html{
+  background-image: url(image/yasuke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
